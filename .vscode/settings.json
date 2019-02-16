@@ -1,0 +1,23 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/coverge": true
+    },
+    "typescript.referencesCodeLens.enabled": true,
+    "tslint.ignoreDefinitionFiles": false,
+    "tslint.autoFixOnSave": true,
+    "tslint.exclude": "**/node_modules/**/*",
+    "cSpell.words": [
+        "csrf",
+        "definitelytyped",
+        "promisified"
+    ],
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/7bc3c004-6012-42cc-a75d-07ca8b756ef2/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/midnight-prophet",
+    "appService.deploySubpath": ""
+}
